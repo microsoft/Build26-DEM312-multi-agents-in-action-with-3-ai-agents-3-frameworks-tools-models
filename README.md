@@ -1,36 +1,3 @@
-# 🚀 Get Started
-
-**This repo is where attendees go to continue their learning after your session — and your Copilot agent will help you set it up.**
-
-### Step 1: Open your repo
-
-Open this repo in a **Codespace** (click the green **Code** button → **Create a Codespace**) — or clone it locally. Then open **GitHub Copilot Chat**.
-
-### Step 2: Add your content
-
-Give the agent something to work with. Drag files into the Explorer panel — session abstracts, outlines, screenshots, notes — and drop them in one of two places:
-
-| Where to put it | What goes there | Who sees it |
-|---|---|---|
-| **`_remove-before-publish/`** | Internal reference materials (abstracts, outlines, screenshots, planning docs) | **Copilot only** — never published |
-| **`/docs/`, `/src/`, or repo root** | Lab instructions, demo code, sample data, getting-started guides | **Attendees** — published with the repo |
-
-> 💡 Not sure? Start by dropping your session abstract or outline into `_remove-before-publish/`. The agent will figure out what to do with it.
-
-### Step 3: Ask the Agent
-
-Once your content is in the repo, use these three phrases with Copilot to build out your session repo:
-
-| Phrase to use with Copilot | What it does | When to run it |
-|---|---|---|
-| **"Help me get started"** | Sets up session title, description, outcomes, and owners | After you've added your session abstract or outline to the repo |
-| **"Help me refine content"** | Organizes your session content into the repo | Each time you add or update content |
-| **"Help me finalize"** | Final review, cleanup, and publication prep | When you're ready to publish |
-
-> 💡 **These three phrases are just the starting point.** Copilot can do much more — try asking it to brainstorm next steps for attendees, generate code samples, or build out your repo structure. Don't be afraid to put it in plan mode and ask for what you need.
-
----
-
 <a name="start-building"></a>
 <br>
 <p align="center">
@@ -39,64 +6,73 @@ Once your content is in the repo, use these three phrases with Copilot to build 
 
 # [Microsoft Build 2026](https://build.microsoft.com)
 
-## 🔥 BRKXXX: SESSION TITLE
+## 🔥 DEM312: Multi-Agents in Action with 3 AI Agents, 3 Frameworks, Tools, and Models
 
-### Session Description
+### Demo Description
 
-*Add Session Description*
+Build and run a polyglot multi-agent workflow on Azure Container Apps using isolated execution, model inference, and end-to-end observability. In this demo, you will see how a researcher agent, content creator agent, and podcaster agent collaborate through A2A-based patterns while comparing frameworks, tools, and model choices for each stage.
 
-### 🏫 Getting started in a guided session
-
-To get started in a guided lab session:
-- <!-- step 1 -->
-- <!-- step 2 -->
-- <!-- step 3 -->
-
-### 🏠 Getting started in your own environment
+### 🚀 Getting started
 
 If you're following these steps at your own pace:
-- Clone this repository
-- Set up your development environment
-- <!-- step 3 -->
+- Open the implementation repository: [azure-container-apps-multi-agent-workflow](https://github.com/Azure-Samples/azure-container-apps-multi-agent-workflow)
+- Choose your setup path for the researcher, content creator, and podcaster workflow
+- Run `azd up` to deploy the multi-agent workflow to Azure Container Apps
 
 ### 🧠 Learning Outcomes
 
-By the end of this session, you will be able to:
+By the end of DEM312, you will be able to:
 
-- <!-- outcome 1 -->
-- <!-- outcome 2 -->
-- <!-- outcome 3 -->
+- Design a multi-agent workflow where three specialized agents collaborate to research, generate content, and produce podcast-ready outputs.
+- Deploy and run agent services on Azure Container Apps with secure isolation for dynamic code execution.
+- Compare framework, tool, and model choices for each agent stage while monitoring behavior with Application Insights.
 
 ### 💬 Keep Learning with Copilot
 
-Try these prompts with GitHub Copilot to explore the topics from this session. Open Copilot Chat in VS Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
+Try these prompts with GitHub Copilot to explore the topics from this demo. Open Copilot Chat in Visual Studio Code (`Ctrl+Alt+I` on Windows/Linux, `Cmd+Shift+I` on Mac), paste a prompt, and see what you learn. Try connecting the [Microsoft Learn MCP Server](#-microsoft-learn-mcp-server) for the latest official documentation.
 
-Use these as a starting point — or write your own!
+1. Understand the DEM312 architecture:
 
-<!-- Prompts will be tailored to this session's content during repo setup. -->
+```text
+Explain the DEM312 architecture with three AI agents, and compare how three framework/tool/model combinations can be used across the workflow on Azure Container Apps.
+```
 
-> *Prompts coming soon — check back after the session content is finalized.*
+2. Explore official docs with the Microsoft Learn MCP Server:
+
+```text
+Using the Microsoft Learn MCP Server, find the latest documentation for Azure Container Apps dynamic sessions, Microsoft Foundry, and Azure OpenAI in Azure AI Foundry Models, then summarize how they map to DEM312.
+```
+
+3. Build something from DEM312:
+
+```text
+Help me create a minimal orchestrator service for DEM312 that calls a research agent, a content agent, and a narration agent, and then containerize it for Azure Container Apps.
+```
 
 ### 💻 Technologies Used
 
-1. <!-- technology 1 -->
-1. <!-- technology 2 -->
-1. <!-- technology 3 -->
+1. [Azure Container Apps](https://learn.microsoft.com/azure/container-apps/overview)
+1. [Azure Container Apps Sandboxes](https://sandboxes.azure.com)
+1. [Microsoft Foundry](https://learn.microsoft.com/azure/foundry/what-is-foundry)
+1. [Azure OpenAI in Azure AI Foundry Models](https://learn.microsoft.com/azure/ai-foundry/openai/overview)
+1. [Azure Monitor Application Insights](https://learn.microsoft.com/azure/azure-monitor/app/app-insights-overview)
 
 ### 📚 Resources and Next Steps
 
 | Resource | Description |
 |:---------|:------------|
-| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and session repos to further your learning from Microsoft Build |
+| [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and demo repos to continue your learning from DEM312 and Microsoft Build |
+| [Azure Samples: Azure Container Apps Multi-Agent Workflow](https://github.com/Azure-Samples/azure-container-apps-multi-agent-workflow/) | Reference implementation used for this demo, including deployment and architecture guidance |
+| [Azure Container Apps dynamic sessions](https://learn.microsoft.com/azure/container-apps/sessions) | Official guidance for sandboxed and isolated execution environments |
 
 
 ### 🌟 Microsoft Learn MCP Server
 
-The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the products and services covered in this session.
+The Microsoft Learn MCP Server gives your AI agent direct access to Microsoft's official documentation — grounded, up-to-date answers about the products and services covered in this demo.
 
-**VS Code** — One click installation: 
+**Visual Studio Code** — One click installation: 
 
-[![Install in VS Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
+[![Install in Visual Studio Code](https://img.shields.io/badge/VS_Code-Install_Microsoft_Learn_MCP-0098FF?style=flat-square&logo=visualstudiocode&logoColor=white)](https://vscode.dev/redirect/mcp/install?name=microsoft-learn&config=%7B%22type%22%3A%22http%22%2C%22url%22%3A%22https%3A%2F%2Flearn.microsoft.com%2Fapi%2Fmcp%22%7D)
 
 
 **GitHub Copilot CLI** — Run this to install the Learn MCP Server as a plugin:
@@ -108,17 +84,17 @@ For more info, other clients, and to post questions, visit the [Learn MCP Server
 
 ## Content Owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/jkalis-MS">
+        <img src="https://github.com/jkalis-MS.png" width="100px;" alt="jkalis-MS"/><br />
+        <sub><b>jkalis-MS</b></sub></a><br />
+            <a href="https://github.com/jkalis-MS" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/vinisoto">
+        <img src="https://github.com/vinisoto.png" width="100px;" alt="Vini Soto"/><br />
+        <sub><b>Vini Soto</b></sub></a><br />
+            <a href="https://github.com/vinisoto" title="talk">📢</a>
     </td>
 </tr></table>
 
