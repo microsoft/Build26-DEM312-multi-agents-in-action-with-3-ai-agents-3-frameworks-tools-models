@@ -15,7 +15,7 @@ Build and run a polyglot multi-agent workflow on Azure Container Apps using isol
 ### 🚀 Getting started
 
 If you're following these steps at your own pace:
-- Open the implementation repository: [azure-container-apps-multi-agent-workflow]([https://github.com/Azure-Samples/azure-container-apps-multi-agent-workflow](https://aka.ms/aca/build2026-dem312)
+- Open the implementation repository: [azure-container-apps-multi-agent-workflow](https://aka.ms/aca/build2026-dem312)
 - Choose your setup path for the researcher, content creator, and podcaster workflow
 - Run `azd up` to deploy the multi-agent workflow to Azure Container Apps
 
@@ -62,7 +62,7 @@ Help me create a minimal orchestrator service for DEM312 that calls a research a
 | Resource | Description |
 |:---------|:------------|
 | [https://aka.ms/build26-next-steps](https://aka.ms/build26-next-steps) | Explore lab and demo repos to continue your learning from DEM312 and Microsoft Build |
-| [Azure Samples: Azure Container Apps Multi-Agent Workflow]([https://aka.ms/aca/build2026-dem312](https://aka.ms/aca/build2026-dem312) | Reference implementation used for this demo, including deployment and architecture guidance |
+| [Azure Samples: Azure Container Apps Multi-Agent Workflow](https://aka.ms/aca/build2026-dem312) | Reference implementation used for this demo, including deployment and architecture guidance |
 | [Azure Container Apps dynamic sessions](https://learn.microsoft.com/azure/container-apps/sessions) | Official guidance for sandboxed and isolated execution environments |
 
 
